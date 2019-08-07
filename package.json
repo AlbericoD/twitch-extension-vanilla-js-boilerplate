@@ -1,0 +1,24 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "npm run build && webpack-dev-server --mode development --open",
+    "review-twitch": "npm run build && cd build && zip -r build.$npm_package_version.zip ./*"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2",
+    "webpack": "^4.39.1"
+  },
+  "keywords": [],
+  "author": "Albérico Dias Barreto Filho",
+  "license": "MIT"
+}

@@ -1,0 +1,35 @@
+html,
+body {
+  height: 80vh;
+  width: 100vw;
+  background-color: #0e0e10;
+}
+
+.video-component-container {
+  background-color: #4b367c;
+}
+
+.title {
+  text-align: center;
+  color: #fff;
+}
+.subtitle {
+  text-align: center;
+  color: #ebebeb;
+}
+.list {
+  display: flex;
+  min-height: 80vh;
+  margin: 0 50px;
+  list-style: none;
+  background-color: #259bd8;
+}
+.item {
+  flex: 1;
+  background: #18161a;
+  color: #fff;
+  margin: 1%;
+  border-radius: 3px;
+  border: solid 2px #ffa600;
+  text-align: center;
+}
